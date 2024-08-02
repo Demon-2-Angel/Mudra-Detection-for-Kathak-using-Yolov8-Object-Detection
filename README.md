@@ -44,6 +44,42 @@ You can explore the trained model and the dataset used for training on RoboFlow:
 ## How to Use
 
 1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/kathak-mudra-detection.git
+   ```
+   bash
+   git clone https://github.com/Demon-2-Angel/Mudra-Detection-for-Kathak-using-Yolov8-Object-Detection.git
    cd kathak-mudra-detection
+   ```
+2. ## Install Dependencies:
+Install the necessary Python packages and other dependencies.
+
+```
+bash
+pip install -r requirements.txt
+```
+
+3. ## Train the Model
+Follow the provided Jupyter Notebook (`Kathak-Trainer - Mudra Detection.ipynb`) to train the model on your own dataset or resume training using the existing weights.
+
+4. ## Run Inference
+Use the provided pipeline to perform inference on video data, and visualize the detected mudras with annotated bounding boxes.
+
+5. ## Deploy the Model
+After training, deploy the model for real-time applications or further development.
+
+## Key Sections of the Code
+- **Installing Dependencies**: Ensures all necessary libraries like Roboflow, Ultralytics, OpenCV, etc., are installed and ready for use.
+- **Training on Custom Dataset**: The model is trained using a dataset downloaded from Roboflow, which is specifically prepared for detecting Kathak mudras.
+- **Inference Pipeline**: A custom inference pipeline is set up to process video input and display detected mudras in real-time.
+- **Handling Performance Issues**: Adjustments like changing IoU thresholds and fine-tuning epochs are made to improve the model's performance on specific metrics like mAP50-95.
+
+## Contributing
+We welcome contributions from developers and Kathak enthusiasts alike. Whether it's improving the model's accuracy, expanding the dataset, or integrating new features, your input is valuable.
+
+## Future Directions
+- **Expand Dataset**: We aim to include more variations and nuances in mudra execution.
+- **Cross-Platform Integration**: Developing plugins for real-time feedback during live performances or practice sessions.
+- **Community Engagement**: Collaborating with Kathak institutions to refine and adapt the model further.
+
+## Get Involved
+This project is a fusion of art and technology, and we invite both developers and Kathak practitioners to collaborate, contribute, and take this model to the next level. Your contributions can make a significant impact in bridging the gap between tradition and modernity.
+
