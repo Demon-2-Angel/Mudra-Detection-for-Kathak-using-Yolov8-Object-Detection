@@ -8,7 +8,7 @@ Kathak, a classical dance form from India, relies heavily on precise hand gestur
 
 This repository hosts a powerful model trained using YOLOv8, specifically designed to detect and analyze these mudras in real-time. Our model is built on a fully customized dataset, ensuring it meets the unique requirements of Kathak hand gesture recognition.
 
-[![Asanyukta Mudras Kathak Detection Model](https://github.com/Demon-2-Angel/Mudra-Detection-for-Kathak-using-Yolov8-Object-Detection/blob/main/AsanyuktaKathakMudra.gif)]
+![Asanyukta Mudras Kathak Detection Model](https://github.com/Demon-2-Angel/Mudra-Detection-for-Kathak-using-Yolov8-Object-Detection/blob/main/AsanyuktaKathakMudra.gif)
 ## Why This Model Matters
 
 ### For Kathak Practitioners:
